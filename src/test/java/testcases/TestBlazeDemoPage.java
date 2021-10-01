@@ -23,7 +23,6 @@ import pages.BlazeDemoPage;
 
 import utility.ApiAppUtils;
 import utility.AppUtils;
-import utility.EmailReport;
 import utility.Helper;
 
 

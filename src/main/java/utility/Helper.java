@@ -16,7 +16,7 @@ public class Helper {
 		File srcFile = ts.getScreenshotAs(OutputType.FILE);
 
 		//specify project path instead
-		String destFile = "/Users/my_appie_pie/Documents/Selenium/workspaceNew/automation.testng.project/Screenshots/"+screenshotname+System.currentTimeMillis()+".png";
+		String destFile = "./automation.testng.project/Screenshots/"+screenshotname+System.currentTimeMillis()+".png";
 		try {
 			FileUtils.copyFile(srcFile, new File(destFile));
 		} catch (IOException e) {

@@ -13,7 +13,7 @@ public class EmailReport
 	{
 		// Create the attachment
 		  EmailAttachment attachment = new EmailAttachment();
-		  attachment.setPath("/Users/my_appie_pie/Documents/Selenium/workspaceNew/automation.testng.project/Reports/NewReport.html");
+		  attachment.setPath("./automation.testng.project/Reports/NewReport.html");
 		  attachment.setDisposition(EmailAttachment.ATTACHMENT);
 		  attachment.setDescription("Test report");
 		  attachment.setName("NewReport.html"); 

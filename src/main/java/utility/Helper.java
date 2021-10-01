@@ -1,23 +1,11 @@
 package utility;
-import java.awt.image.BufferedImage;
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
+
 import java.io.File;
 import java.io.IOException;
-import java.util.Base64;
-
-import javax.imageio.IIOImage;
-import javax.imageio.ImageIO;
-import javax.imageio.ImageWriteParam;
-import javax.imageio.ImageWriter;
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.testng.IInvokedMethod;
-import org.testng.ITestContext;
-import org.testng.ITestResult;
 
 public class Helper {
 	// private final Logger LOGGER = org.testng.log4testng.Logger.getLogger(Helper.class);

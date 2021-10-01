@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-BlazeDemoSuite">
+              <span class="suite-name border-passed">BlazeDemoSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-BlazeDemoSuite">
+                    <span>CrticalCasesTestSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-BlazeDemoSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-BlazeDemoSuite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-BlazeDemoSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-BlazeDemoSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-BlazeDemoSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-BlazeDemoSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-BlazeDemoSuite" class="hide-methods passed suite-BlazeDemoSuite"> (hide)</a> <!-- hide-methods passed suite-BlazeDemoSuite -->
+                      <a href="#" panel-name="suite-BlazeDemoSuite" class="show-methods passed suite-BlazeDemoSuite"> (show)</a> <!-- show-methods passed suite-BlazeDemoSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-BlazeDemoSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BlazeDemoSuite" title="testcases.TestReservationPage" hash-for-method="verifyChooseFlightButton">verifyChooseFlightButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BlazeDemoSuite" title="testcases.TestPurchasePage" hash-for-method="verifyChooseFlightButton">verifyChooseFlightButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BlazeDemoSuite" title="testcases.TestBlazeDemoPage" hash-for-method="verifyFlightButton">verifyFlightButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BlazeDemoSuite" title="testcases.TestOrderConfirmationPage" hash-for-method="verifyFlightsOrderConfirmationPage">verifyFlightsOrderConfirmationPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BlazeDemoSuite" title="testcases.TestOrderConfirmationPage" hash-for-method="verifyFlightsOrderConfirmationPageStatusCode">verifyFlightsOrderConfirmationPageStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BlazeDemoSuite" title="testcases.TestPurchasePage" hash-for-method="verifyFlightsPurchasePage">verifyFlightsPurchasePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BlazeDemoSuite" title="testcases.TestPurchasePage" hash-for-method="verifyFlightsPurchasePageStatusCode">verifyFlightsPurchasePageStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BlazeDemoSuite" title="testcases.TestReservationPage" hash-for-method="verifyFlightsReservationPage">verifyFlightsReservationPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BlazeDemoSuite" title="testcases.TestReservationPage" hash-for-method="verifyFlightsReservationPageStatusCode">verifyFlightsReservationPageStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BlazeDemoSuite" title="testcases.TestOrderConfirmationPage" hash-for-method="verifyOrderIDGenerated">verifyOrderIDGenerated</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BlazeDemoSuite" title="testcases.TestBlazeDemoPage" hash-for-method="verifyTravelAgencyPageStatusCode">verifyTravelAgencyPageStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BlazeDemoSuite" title="testcases.TestBlazeDemoPage" hash-for-method="verifyWelcomePage">verifyWelcomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-BlazeDemoSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BlazeDemoSuite" class="panel BlazeDemoSuite">
+          <div class="suite-BlazeDemoSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TestReservationPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyChooseFlightButton">
+                  </a> <!-- verifyChooseFlightButton -->
+                  <span class="method-name">verifyChooseFlightButton</span>
+                  <em>
+(Verify whether user to navigate Purchase page by clicking on choose Flights)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFlightsReservationPage">
+                  </a> <!-- verifyFlightsReservationPage -->
+                  <span class="method-name">verifyFlightsReservationPage</span>
+                  <em>
+(Verify whether user has landed to Flights Reservation Page by validating the url and title)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFlightsReservationPageStatusCode">
+                  </a> <!-- verifyFlightsReservationPageStatusCode -->
+                  <span class="method-name">verifyFlightsReservationPageStatusCode</span>
+                  <em>
+(Verify Flights Reservation Page is loaded successfully by validating status code)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BlazeDemoSuite-class-passed -->
+          <div class="suite-BlazeDemoSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TestOrderConfirmationPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFlightsOrderConfirmationPage">
+                  </a> <!-- verifyFlightsOrderConfirmationPage -->
+                  <span class="method-name">verifyFlightsOrderConfirmationPage</span>
+                  <em>
+(Verify whether user has landed to Order Confirmation page by validating the url and title)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFlightsOrderConfirmationPageStatusCode">
+                  </a> <!-- verifyFlightsOrderConfirmationPageStatusCode -->
+                  <span class="method-name">verifyFlightsOrderConfirmationPageStatusCode</span>
+                  <em>
+(Verify Order Confirmation page is loaded successfully by validating status code)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOrderIDGenerated">
+                  </a> <!-- verifyOrderIDGenerated -->
+                  <span class="method-name">verifyOrderIDGenerated</span>
+                  <em>
+(Verify whether user was able to make successful transaction by genration of orderId)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BlazeDemoSuite-class-passed -->
+          <div class="suite-BlazeDemoSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TestBlazeDemoPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFlightButton">
+                  </a> <!-- verifyFlightButton -->
+                  <span class="method-name">verifyFlightButton</span>
+                  <em>
+(verify whether user to navigate reservation page by clicking on findFlights)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTravelAgencyPageStatusCode">
+                  </a> <!-- verifyTravelAgencyPageStatusCode -->
+                  <span class="method-name">verifyTravelAgencyPageStatusCode</span>
+                  <em>
+(Verify Travel Agency Welcome Page is loaded successfully)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWelcomePage">
+                  </a> <!-- verifyWelcomePage -->
+                  <span class="method-name">verifyWelcomePage</span>
+                  <em>
+(verify whether user has landed to Travel Agency Welcome Page by validating the url and title)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BlazeDemoSuite-class-passed -->
+          <div class="suite-BlazeDemoSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TestPurchasePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyChooseFlightButton">
+                  </a> <!-- verifyChooseFlightButton -->
+                  <span class="method-name">verifyChooseFlightButton</span>
+                  <em>
+(Verify whether user to navigate Purchase page by clicking on Purchase Flights)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFlightsPurchasePage">
+                  </a> <!-- verifyFlightsPurchasePage -->
+                  <span class="method-name">verifyFlightsPurchasePage</span>
+                  <em>
+(Verify whether user has landed to Purchase Page by validating the url and title)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFlightsPurchasePageStatusCode">
+                  </a> <!-- verifyFlightsPurchasePageStatusCode -->
+                  <span class="method-name">verifyFlightsPurchasePageStatusCode</span>
+                  <em>
+(Verify Purchase Page is loaded successfully by validating status code)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BlazeDemoSuite-class-passed -->
+        </div> <!-- panel BlazeDemoSuite -->
+        <div panel-name="test-xml-BlazeDemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/my_appie_pie/Documents/Selenium/workspaceNew/automation.testng.project/CrticalCasesTestSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;BlazeDemoSuite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;4&quot; name=&quot;BlazeDemoTest&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.TestBlazeDemoPage&quot;/&gt;
+      &lt;class name=&quot;testcases.TestReservationPage&quot;/&gt;
+      &lt;class name=&quot;testcases.TestPurchasePage&quot;/&gt;
+      &lt;class name=&quot;testcases.TestOrderConfirmationPage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BlazeDemoTest --&gt;
+&lt;/suite&gt; &lt;!-- BlazeDemoSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BlazeDemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BlazeDemoSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">BlazeDemoTest (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BlazeDemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BlazeDemoSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">CRITICAL</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyChooseFlightButton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFlightButton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFlightsOrderConfirmationPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFlightsOrderConfirmationPageStatusCode</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFlightsPurchasePage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFlightsPurchasePageStatusCode</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFlightsReservationPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFlightsReservationPageStatusCode</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyOrderIDGenerated</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyTravelAgencyPageStatusCode</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyWelcomePage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BlazeDemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BlazeDemoSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BlazeDemoSuite');
+function tableData_BlazeDemoSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyTravelAgencyPageStatusCode')
+data.setCell(0, 2, 'testcases.TestBlazeDemoPage')
+data.setCell(0, 3, 3520);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyFlightsOrderConfirmationPageStatusCode')
+data.setCell(1, 2, 'testcases.TestOrderConfirmationPage')
+data.setCell(1, 3, 3028);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyFlightsOrderConfirmationPage')
+data.setCell(2, 2, 'testcases.TestOrderConfirmationPage')
+data.setCell(2, 3, 2408);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyOrderIDGenerated')
+data.setCell(3, 2, 'testcases.TestOrderConfirmationPage')
+data.setCell(3, 3, 2123);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyFlightsPurchasePage')
+data.setCell(4, 2, 'testcases.TestPurchasePage')
+data.setCell(4, 3, 1972);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyChooseFlightButton')
+data.setCell(5, 2, 'testcases.TestPurchasePage')
+data.setCell(5, 3, 1957);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyFlightsPurchasePageStatusCode')
+data.setCell(6, 2, 'testcases.TestPurchasePage')
+data.setCell(6, 3, 1897);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyChooseFlightButton')
+data.setCell(7, 2, 'testcases.TestReservationPage')
+data.setCell(7, 3, 1540);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyFlightsReservationPageStatusCode')
+data.setCell(8, 2, 'testcases.TestReservationPage')
+data.setCell(8, 3, 1497);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyFlightsReservationPage')
+data.setCell(9, 2, 'testcases.TestReservationPage')
+data.setCell(9, 3, 1433);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyFlightButton')
+data.setCell(10, 2, 'testcases.TestBlazeDemoPage')
+data.setCell(10, 3, 578);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyWelcomePage')
+data.setCell(11, 2, 'testcases.TestBlazeDemoPage')
+data.setCell(11, 3, 115);
+window.suiteTableData['BlazeDemoSuite']= { tableData: data, tableDiv: 'times-div-BlazeDemoSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
+              <div id="times-div-BlazeDemoSuite">
+              </div> <!-- times-div-BlazeDemoSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BlazeDemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BlazeDemoSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BlazeDemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BlazeDemoSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestBlazeDemoPage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTravelAgencyPageStatusCode</span>
+                <span class="method-start">7553 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestReservationPage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11075 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFlightsReservationPageStatusCode</span>
+                <span class="method-start">11584 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestPurchasePage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">13085 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFlightsPurchasePageStatusCode</span>
+                <span class="method-start">13636 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestOrderConfirmationPage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">15535 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFlightsOrderConfirmationPageStatusCode</span>
+                <span class="method-start">16092 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestBlazeDemoPage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">19126 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyWelcomePage</span>
+                <span class="method-start">19569 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestReservationPage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">19685 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFlightsReservationPage</span>
+                <span class="method-start">20183 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestPurchasePage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">21617 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFlightsPurchasePage</span>
+                <span class="method-start">22198 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestOrderConfirmationPage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">24172 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFlightsOrderConfirmationPage</span>
+                <span class="method-start">24692 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestBlazeDemoPage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">27102 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFlightButton</span>
+                <span class="method-start">27714 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestReservationPage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">28293 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyChooseFlightButton</span>
+                <span class="method-start">28794 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestPurchasePage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">30335 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyChooseFlightButton</span>
+                <span class="method-start">30839 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestOrderConfirmationPage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">32798 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyOrderIDGenerated</span>
+                <span class="method-start">33304 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestBlazeDemoPage</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeTest</span>
+                <span class="method-start">35428 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestOrderConfirmationPage</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeTest</span>
+                <span class="method-start">35533 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestPurchasePage</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeTest</span>
+                <span class="method-start">35533 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestReservationPage</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeTest</span>
+                <span class="method-start">35533 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

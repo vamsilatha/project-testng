@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BlazeDemoSuite" duration-ms="35576" started-at="2021-09-30T20:19:09Z" finished-at="2021-09-30T20:19:45Z">
+    <groups>
+      <group name="CRITICAL">
+        <method signature="TestBlazeDemoPage.verifyFlightButton()[pri:3, instance:testcases.TestBlazeDemoPage@77846d2c]" name="verifyFlightButton" class="testcases.TestBlazeDemoPage"/>
+        <method signature="TestBlazeDemoPage.verifyTravelAgencyPageStatusCode()[pri:1, instance:testcases.TestBlazeDemoPage@77846d2c]" name="verifyTravelAgencyPageStatusCode" class="testcases.TestBlazeDemoPage"/>
+        <method signature="TestBlazeDemoPage.verifyWelcomePage()[pri:2, instance:testcases.TestBlazeDemoPage@77846d2c]" name="verifyWelcomePage" class="testcases.TestBlazeDemoPage"/>
+        <method signature="TestOrderConfirmationPage.verifyFlightsOrderConfirmationPage()[pri:2, instance:testcases.TestOrderConfirmationPage@2641e737]" name="verifyFlightsOrderConfirmationPage" class="testcases.TestOrderConfirmationPage"/>
+        <method signature="TestOrderConfirmationPage.verifyFlightsOrderConfirmationPageStatusCode()[pri:1, instance:testcases.TestOrderConfirmationPage@2641e737]" name="verifyFlightsOrderConfirmationPageStatusCode" class="testcases.TestOrderConfirmationPage"/>
+        <method signature="TestOrderConfirmationPage.verifyOrderIDGenerated()[pri:3, instance:testcases.TestOrderConfirmationPage@2641e737]" name="verifyOrderIDGenerated" class="testcases.TestOrderConfirmationPage"/>
+        <method signature="TestPurchasePage.verifyChooseFlightButton()[pri:3, instance:testcases.TestPurchasePage@4c762604]" name="verifyChooseFlightButton" class="testcases.TestPurchasePage"/>
+        <method signature="TestPurchasePage.verifyFlightsPurchasePage()[pri:2, instance:testcases.TestPurchasePage@4c762604]" name="verifyFlightsPurchasePage" class="testcases.TestPurchasePage"/>
+        <method signature="TestPurchasePage.verifyFlightsPurchasePageStatusCode()[pri:1, instance:testcases.TestPurchasePage@4c762604]" name="verifyFlightsPurchasePageStatusCode" class="testcases.TestPurchasePage"/>
+        <method signature="TestReservationPage.verifyChooseFlightButton()[pri:3, instance:testcases.TestReservationPage@548ad73b]" name="verifyChooseFlightButton" class="testcases.TestReservationPage"/>
+        <method signature="TestReservationPage.verifyFlightsReservationPage()[pri:2, instance:testcases.TestReservationPage@548ad73b]" name="verifyFlightsReservationPage" class="testcases.TestReservationPage"/>
+        <method signature="TestReservationPage.verifyFlightsReservationPageStatusCode()[pri:1, instance:testcases.TestReservationPage@548ad73b]" name="verifyFlightsReservationPageStatusCode" class="testcases.TestReservationPage"/>
+      </group> <!-- CRITICAL -->
+    </groups>
+    <test name="BlazeDemoTest" duration-ms="35576" started-at="2021-09-30T20:19:09Z" finished-at="2021-09-30T20:19:45Z">
+      <class name="testcases.TestOrderConfirmationPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TestOrderConfirmationPage@2641e737]" name="setUp" is-config="true" duration-ms="557" started-at="2021-09-30T20:19:25Z" finished-at="2021-09-30T20:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyFlightsOrderConfirmationPageStatusCode()[pri:1, instance:testcases.TestOrderConfirmationPage@2641e737]" name="verifyFlightsOrderConfirmationPageStatusCode" duration-ms="3028" started-at="2021-09-30T20:19:25Z" description="Verify Order Confirmation page is loaded successfully by validating status code" finished-at="2021-09-30T20:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightsOrderConfirmationPageStatusCode -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TestOrderConfirmationPage@2641e737]" name="setUp" is-config="true" duration-ms="520" started-at="2021-09-30T20:19:33Z" finished-at="2021-09-30T20:19:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyFlightsOrderConfirmationPage()[pri:2, instance:testcases.TestOrderConfirmationPage@2641e737]" name="verifyFlightsOrderConfirmationPage" duration-ms="2408" started-at="2021-09-30T20:19:34Z" description="Verify whether user has landed to Order Confirmation page by validating the url and title" finished-at="2021-09-30T20:19:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightsOrderConfirmationPage -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TestOrderConfirmationPage@2641e737]" name="setUp" is-config="true" duration-ms="506" started-at="2021-09-30T20:19:42Z" finished-at="2021-09-30T20:19:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyOrderIDGenerated()[pri:3, instance:testcases.TestOrderConfirmationPage@2641e737]" name="verifyOrderIDGenerated" duration-ms="2123" started-at="2021-09-30T20:19:43Z" description="Verify whether user was able to make successful transaction by genration of orderId" finished-at="2021-09-30T20:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderIDGenerated -->
+      </class> <!-- testcases.TestOrderConfirmationPage -->
+      <class name="testcases.TestPurchasePage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TestPurchasePage@4c762604]" name="setUp" is-config="true" duration-ms="550" started-at="2021-09-30T20:19:22Z" finished-at="2021-09-30T20:19:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyFlightsPurchasePageStatusCode()[pri:1, instance:testcases.TestPurchasePage@4c762604]" name="verifyFlightsPurchasePageStatusCode" duration-ms="1897" started-at="2021-09-30T20:19:23Z" description="Verify Purchase Page is loaded successfully by validating status code" finished-at="2021-09-30T20:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightsPurchasePageStatusCode -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TestPurchasePage@4c762604]" name="setUp" is-config="true" duration-ms="581" started-at="2021-09-30T20:19:31Z" finished-at="2021-09-30T20:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyFlightsPurchasePage()[pri:2, instance:testcases.TestPurchasePage@4c762604]" name="verifyFlightsPurchasePage" duration-ms="1972" started-at="2021-09-30T20:19:31Z" description="Verify whether user has landed to Purchase Page by validating the url and title" finished-at="2021-09-30T20:19:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightsPurchasePage -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TestPurchasePage@4c762604]" name="setUp" is-config="true" duration-ms="504" started-at="2021-09-30T20:19:40Z" finished-at="2021-09-30T20:19:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyChooseFlightButton()[pri:3, instance:testcases.TestPurchasePage@4c762604]" name="verifyChooseFlightButton" duration-ms="1957" started-at="2021-09-30T20:19:40Z" description="Verify whether user to navigate Purchase page by clicking on Purchase Flights" finished-at="2021-09-30T20:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChooseFlightButton -->
+      </class> <!-- testcases.TestPurchasePage -->
+      <class name="testcases.TestBlazeDemoPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TestBlazeDemoPage@77846d2c]" name="setUp" is-config="true" duration-ms="7553" started-at="2021-09-30T20:19:09Z" finished-at="2021-09-30T20:19:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyTravelAgencyPageStatusCode()[pri:1, instance:testcases.TestBlazeDemoPage@77846d2c]" name="verifyTravelAgencyPageStatusCode" duration-ms="3520" started-at="2021-09-30T20:19:17Z" description="Verify Travel Agency Welcome Page is loaded successfully" finished-at="2021-09-30T20:19:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTravelAgencyPageStatusCode -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TestBlazeDemoPage@77846d2c]" name="setUp" is-config="true" duration-ms="443" started-at="2021-09-30T20:19:28Z" finished-at="2021-09-30T20:19:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyWelcomePage()[pri:2, instance:testcases.TestBlazeDemoPage@77846d2c]" name="verifyWelcomePage" duration-ms="115" started-at="2021-09-30T20:19:29Z" description="verify whether user has landed to Travel Agency Welcome Page by validating the url and title" finished-at="2021-09-30T20:19:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWelcomePage -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TestBlazeDemoPage@77846d2c]" name="setUp" is-config="true" duration-ms="612" started-at="2021-09-30T20:19:36Z" finished-at="2021-09-30T20:19:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyFlightButton()[pri:3, instance:testcases.TestBlazeDemoPage@77846d2c]" name="verifyFlightButton" duration-ms="578" started-at="2021-09-30T20:19:37Z" description="verify whether user to navigate reservation page by clicking on findFlights" finished-at="2021-09-30T20:19:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightButton -->
+        <test-method status="PASS" signature="closeTest()[pri:0, instance:testcases.TestBlazeDemoPage@77846d2c]" name="closeTest" is-config="true" duration-ms="105" started-at="2021-09-30T20:19:45Z" finished-at="2021-09-30T20:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+        <test-method status="PASS" signature="closeTest()[pri:0, instance:testcases.TestOrderConfirmationPage@2641e737]" name="closeTest" is-config="true" duration-ms="0" started-at="2021-09-30T20:19:45Z" finished-at="2021-09-30T20:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+        <test-method status="PASS" signature="closeTest()[pri:0, instance:testcases.TestPurchasePage@4c762604]" name="closeTest" is-config="true" duration-ms="0" started-at="2021-09-30T20:19:45Z" finished-at="2021-09-30T20:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+        <test-method status="PASS" signature="closeTest()[pri:0, instance:testcases.TestReservationPage@548ad73b]" name="closeTest" is-config="true" duration-ms="0" started-at="2021-09-30T20:19:45Z" finished-at="2021-09-30T20:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- testcases.TestBlazeDemoPage -->
+      <class name="testcases.TestReservationPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TestReservationPage@548ad73b]" name="setUp" is-config="true" duration-ms="509" started-at="2021-09-30T20:19:20Z" finished-at="2021-09-30T20:19:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyFlightsReservationPageStatusCode()[pri:1, instance:testcases.TestReservationPage@548ad73b]" name="verifyFlightsReservationPageStatusCode" duration-ms="1497" started-at="2021-09-30T20:19:21Z" description="Verify Flights Reservation Page is loaded successfully by validating status code" finished-at="2021-09-30T20:19:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightsReservationPageStatusCode -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TestReservationPage@548ad73b]" name="setUp" is-config="true" duration-ms="498" started-at="2021-09-30T20:19:29Z" finished-at="2021-09-30T20:19:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyFlightsReservationPage()[pri:2, instance:testcases.TestReservationPage@548ad73b]" name="verifyFlightsReservationPage" duration-ms="1433" started-at="2021-09-30T20:19:29Z" description="Verify whether user has landed to Flights Reservation Page by validating the url and title" finished-at="2021-09-30T20:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightsReservationPage -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TestReservationPage@548ad73b]" name="setUp" is-config="true" duration-ms="501" started-at="2021-09-30T20:19:38Z" finished-at="2021-09-30T20:19:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyChooseFlightButton()[pri:3, instance:testcases.TestReservationPage@548ad73b]" name="verifyChooseFlightButton" duration-ms="1540" started-at="2021-09-30T20:19:38Z" description="Verify whether user to navigate Purchase page by clicking on choose Flights" finished-at="2021-09-30T20:19:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChooseFlightButton -->
+      </class> <!-- testcases.TestReservationPage -->
+    </test> <!-- BlazeDemoTest -->
+  </suite> <!-- BlazeDemoSuite -->
+</testng-results>

@@ -22,7 +22,6 @@ import pages.BlazeDemoPage;
 import pages.ReservationPage;
 import utility.ApiAppUtils;
 import utility.AppUtils;
-import utility.EmailReport;
 import utility.Helper;
 
 
